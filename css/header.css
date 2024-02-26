@@ -14,7 +14,6 @@ header {
 }
 
 .logo {
-  /* background-color: black; */
   width: 33vw;
   display: flex;
   justify-content: center;
@@ -26,13 +25,28 @@ header {
   max-height: 90%;
 }
 
-.nom_du_site h1{
-  color: white;
-  text-align: center; 
+.nom_du_site{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
+.nom_du_site h1{
+  height: auto;
+  padding: 3px;
+  color: white;
+  text-align: center; 
+  
+}
+
+.nom_du_site p{
+  text-align: center; 
+  color :rgb(255, 244, 231);
+  margin: 0;
+  padding: 0; 
+  height : auto;
+}
+
 
 nav{
   height: 15vh;
