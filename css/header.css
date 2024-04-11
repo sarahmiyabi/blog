@@ -23,6 +23,7 @@ header {
 .logo img {
   width: auto;
   max-height: 90%;
+  transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .nom_du_site{
